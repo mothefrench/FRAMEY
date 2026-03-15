@@ -1,0 +1,15 @@
+[build]
+command = "next build"
+publish = ".next"
+
+[functions]
+directory = "netlify/functions"
+
+[dev]
+command = "next dev"
+
+# You can add environment variables here
+#[[redirects]]
+#from = "/api/*"
+#to = "/.netlify/functions/:splat"
+#status = 200
